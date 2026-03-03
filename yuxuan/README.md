@@ -4,6 +4,7 @@
 - [2026-02-09: 1st Proposal drafting](#2026-02-09-1st-proposal-drafting-team)
 - [2026-02-16: Proposal Revision and Requirement Refinement](#2026-02-16-proposal-revision-and-requirement-refinement-team)
 - [2026-02-23: CAD Layout and Mechanical Planning](#2026-02-23-cad-layout-and-mechanical-planning-individual)
+- [2026-03-02: Parts Ordering and Mechanical Integration Planning](#2026-03-02-parts-ordering-and-mechanical-integration-planning-individual)
 - [Template](#yyyy-mm-dd)
 
 ## 2026-02-09: 1st Proposal drafting (Team)
@@ -85,6 +86,38 @@
 - Refine chassis wall thickness and mounting points
 - Add motor holders and wheel clearance
 - Confirm whether the roller mechanism has enough vertical clearance
+
+## 2026-03-02: Parts Ordering and Mechanical Integration Planning (Individual)
+
+### Objectives
+- Identify required components for drivetrain, battery, and mechanical assembly
+- Prepare material order information
+- Check compatibility between purchased parts and the CAD design
+
+### Record
+- Researched and selected parts needed for the drivetrain and power system.
+- Prepared ordering information and business justifications for key components.
+- Checked the battery connector type and motor shaft size to make sure they matched the planned design.
+- Updated the CAD layout based on the expected motor and battery dimensions.
+- Discussed with teammate how the PCB and power wiring should be routed inside the chassis.
+
+### Figures
+- **Fig. 1** Updated CAD layout with reserved battery and PCB areas.
+- **Fig. 2** Motor-to-wheel connection sketch.
+
+### Equations
+- **Eq. 1** Estimated available drive force:
+  `F_available = T_motor / r_wheel`
+
+### Attachments / Sources
+- **Doc. A** Parts List Draft
+- **Doc. B** Order Justification Notes
+- **Doc. C** Updated CAD Screenshot
+
+### Next Steps
+- Continue CAD refinement after parts arrive
+- Design wheel hub geometry for the motor shaft
+- Coordinate with teammate on PCB mounting hole placement
 
 
 ## YYYY-MM-DD

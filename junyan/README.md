@@ -4,6 +4,7 @@
 - [2026-02-09: 1st Proposal drafting](#2026-02-09-1st-proposal-drafting-team)
 - [2026-02-16: Proposal Revision and Requirement Refinement](#2026-02-16-proposal-revision-and-requirement-refinement-team)
 - [2026-02-23: PCB Architecture and Control Subsystem Planning](#2026-02-23-pcb-architecture-and-control-subsystem-planning-individual)
+- [2026-03-02: Schematic Development and Power Planning](#2026-03-02-schematic-development-and-power-planning-individual)
 - [Template](#yyyy-mm-dd)
 
 ## 2026-02-09: 1st Proposal drafting (Team)
@@ -85,6 +86,37 @@
 - Continue schematic design
 - Confirm motor driver and regulator choices
 - Coordinate PCB dimensions with CAD layout
+
+## 2026-03-02: Schematic Development and Power Planning (Individual)
+
+### Objectives
+- Work on schematic design for the control PCB
+- Plan power regulation and motor power distribution
+- Include safety-related electrical features
+
+### Record
+- Developed the schematic for the ESP32-based control subsystem.
+- Worked on the power path from the battery to the motor drivers and logic regulator.
+- Considered how to reduce brownout risk during motor stall or high-current conditions.
+- Added supporting passive components such as resistors, capacitors, and indicator LEDs.
+- Discussed whether current sensing should be included to help monitor motor load and protect components.
+
+### Figures
+- **Fig. 1** Power subsystem schematic section.
+- **Fig. 2** ESP32 control schematic section.
+
+### Equations
+- **Eq. 1** Regulator input power estimate:
+  `P_in = V_battery I_input`
+
+### Attachments / Sources
+- **Doc. A** Schematic Draft
+- **Doc. B** Component Selection Notes
+
+### Next Steps
+- Finish schematic review
+- Begin PCB layout
+- Check component footprints before ordering
 
 
 ## YYYY-MM-DD
