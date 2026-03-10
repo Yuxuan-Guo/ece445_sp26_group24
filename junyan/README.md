@@ -5,6 +5,7 @@
 - [2026-02-16: Proposal Revision and Requirement Refinement](#2026-02-16-proposal-revision-and-requirement-refinement-team)
 - [2026-02-23: PCB Architecture and Control Subsystem Planning](#2026-02-23-pcb-architecture-and-control-subsystem-planning-individual)
 - [2026-03-02: Schematic Development and Power Planning](#2026-03-02-schematic-development-and-power-planning-individual)
+- [2026-03-09: Design Document Drafting](#2026-03-09-design-document-drafting-team)
 - [Template](#yyyy-mm-dd)
 
 ## 2026-02-09: 1st Proposal drafting (Team)
@@ -117,6 +118,39 @@
 - Finish schematic review
 - Begin PCB layout
 - Check component footprints before ordering
+
+## 2026-03-09: Design Document Drafting (Team)
+
+### Objectives
+- Work on the design document structure
+- Add subsystem descriptions and requirements
+- Prepare testing and verification plans
+- Improve the problem/solution and visual aid sections
+
+### Record
+- Met as a team to divide the design document sections.
+- Discussed how to describe the novelty of the design, especially the combination of wedge, powered roller, and 4WD drivetrain.
+- Added more measurable subsystem requirements for control, power, drivetrain, and weapon/roller operation.
+- Planned verification tests for link-loss shutdown, drive pushing force, roller movement, and power stability.
+- Reviewed how the block diagram should match the written subsystem descriptions.
+
+### Figures
+- **Fig. 1** System-level visual aid showing the robot, user controller, and wireless communication.
+- **Fig. 2** Updated block diagram with clearer subsystem boundaries.
+
+### Equations
+- **Eq. 1** Battery voltage sag estimate:
+  `V_sag = I_peak R_internal`
+
+### Attachments / Sources
+- **Doc. A** Design Document Draft
+- **Doc. B** Updated Block Diagram
+- **Doc. C** Verification Plan Notes
+
+### Next Steps
+- Complete individual assigned sections
+- Add tolerance analysis calculations
+- Review document formatting before submission
 
 
 ## YYYY-MM-DD
