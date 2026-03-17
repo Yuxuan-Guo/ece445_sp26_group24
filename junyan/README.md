@@ -6,6 +6,7 @@
 - [2026-02-23: PCB Architecture and Control Subsystem Planning](#2026-02-23-pcb-architecture-and-control-subsystem-planning-individual)
 - [2026-03-02: Schematic Development and Power Planning](#2026-03-02-schematic-development-and-power-planning-individual)
 - [2026-03-09: Design Document Drafting](#2026-03-09-design-document-drafting-team)
+- [2026-03-16: PCB Layout and Design Rule Check](#2026-03-16-pcb-layout-and-design-rule-check-individual)
 - [Template](#yyyy-mm-dd)
 
 ## 2026-02-09: 1st Proposal drafting (Team)
@@ -151,6 +152,37 @@
 - Complete individual assigned sections
 - Add tolerance analysis calculations
 - Review document formatting before submission
+
+## 2026-03-16: PCB Layout and Design Rule Check (Individual)
+
+### Objectives
+- Create PCB layout for the control and power board
+- Place major components and connectors
+- Check routing and design rules
+
+### Record
+- Worked on PCB layout using the schematic as the reference.
+- Placed the ESP32 module, motor driver connections, regulator components, and external connectors.
+- Considered current path width for motor power traces and battery input traces.
+- Kept the USB/programming side accessible based on mechanical constraints.
+- Ran design rule checks and fixed routing/spacing issues found during the layout process.
+
+### Figures
+- **Fig. 1** PCB top-layer layout.
+- **Fig. 2** PCB bottom-layer layout.
+
+### Equations
+- **Eq. 1** Approximate trace current margin:
+  `Margin = I_trace_limit / I_expected`
+
+### Attachments / Sources
+- **Doc. A** PCB Layout Screenshot
+- **Doc. B** DRC Result Notes
+
+### Next Steps
+- Finalize PCB layout
+- Review footprints before fabrication
+- Prepare board for assembly
 
 
 ## YYYY-MM-DD

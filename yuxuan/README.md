@@ -6,6 +6,7 @@
 - [2026-02-23: CAD Layout and Mechanical Planning](#2026-02-23-cad-layout-and-mechanical-planning-individual)
 - [2026-03-02: Parts Ordering and Mechanical Integration Planning](#2026-03-02-parts-ordering-and-mechanical-integration-planning-individual)
 - [2026-03-09: Design Document Drafting](#2026-03-09-design-document-drafting-team)
+- [2026-03-16: CAD Refinement and Assembly Method Design](#2026-03-16-cad-refinement-and-assembly-method-design-individual)
 - [Template](#yyyy-mm-dd)
 
 ## 2026-02-09: 1st Proposal drafting (Team)
@@ -152,6 +153,37 @@
 - Complete individual assigned sections
 - Add tolerance analysis calculations
 - Review document formatting before submission
+
+## 2026-03-16: CAD Refinement and Assembly Method Design (Individual)
+
+### Objectives
+- Refine the chassis and shell design
+- Add mounting structures for internal components
+- Plan assembly order for chassis, motors, wheels, PCB, and battery
+
+### Record
+- Improved the CAD model by adding mounting regions for the motors and internal electronics.
+- Adjusted the wheel clearance so the wheels can rotate freely without rubbing against the chassis.
+- Considered how the top shell or cover could be attached while still allowing access to the battery and PCB.
+- Designed the internal layout so the battery is placed low and near the center to improve stability.
+- Checked whether the wedge front would interfere with the roller mechanism during contact.
+
+### Figures
+- **Fig. 1** Updated chassis CAD with motor mounts.
+- **Fig. 2** Exploded-view assembly sketch.
+
+### Equations
+- **Eq. 1** Approximate center of mass estimate:
+  `x_COM = Σ(m_i x_i) / Σm_i`
+
+### Attachments / Sources
+- **Doc. A** Fusion 360 Updated Chassis
+- **Doc. B** Assembly Planning Notes
+
+### Next Steps
+- Export STL/3MF files for test printing
+- Check print orientation and support requirements in Bambu Studio
+- Update CAD after physical fit checks
 
 
 ## YYYY-MM-DD
