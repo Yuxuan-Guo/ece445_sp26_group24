@@ -7,6 +7,7 @@
 - [2026-03-02: Parts Ordering and Mechanical Integration Planning](#2026-03-02-parts-ordering-and-mechanical-integration-planning-individual)
 - [2026-03-09: Design Document Drafting](#2026-03-09-design-document-drafting-team)
 - [2026-03-16: CAD Refinement and Assembly Method Design](#2026-03-16-cad-refinement-and-assembly-method-design-individual)
+- [2026-03-23: PCB Soldering Support and Mechanical Fit Check](#2026-03-23-pcb-soldering-support-and-mechanical-fit-check-team)
 - [Template](#yyyy-mm-dd)
 
 ## 2026-02-09: 1st Proposal drafting (Team)
@@ -184,6 +185,37 @@
 - Export STL/3MF files for test printing
 - Check print orientation and support requirements in Bambu Studio
 - Update CAD after physical fit checks
+
+## 2026-03-23: PCB Soldering Support and Mechanical Fit Check (Team)
+
+### Objectives
+- Assist with PCB soldering and inspection
+- Check whether the electrical board fits inside the chassis
+- Identify mechanical or wiring conflicts before full integration
+
+### Record
+- Worked together to prepare for PCB assembly and inspection.
+- Helped check the orientation of important components before soldering.
+- Compared the assembled PCB size with the reserved CAD space.
+- Discussed wire routing from battery to power subsystem and from motor drivers to drive motors.
+- Identified areas where the chassis may need extra clearance for connectors and wires.
+
+### Figures
+- **Fig. 1** PCB placement inside the chassis.
+- **Fig. 2** Wire routing sketch for battery, motor drivers, and ESP32 board.
+
+### Equations
+- **Eq. 1** Logic rail power estimate:
+  `P_logic = V_logic I_logic`
+
+### Attachments / Sources
+- **Doc. A** PCB Assembly Photo
+- **Doc. B** Chassis Fit Check Notes
+
+### Next Steps
+- Continue electrical bring-up
+- Modify CAD if connector clearance is insufficient
+- Prepare for drivetrain integration
 
 
 ## YYYY-MM-DD
