@@ -8,6 +8,7 @@
 - [2026-03-09: Design Document Drafting](#2026-03-09-design-document-drafting-team)
 - [2026-03-16: CAD Refinement and Assembly Method Design](#2026-03-16-cad-refinement-and-assembly-method-design-individual)
 - [2026-03-23: PCB Soldering Support and Mechanical Fit Check](#2026-03-23-pcb-soldering-support-and-mechanical-fit-check-team)
+- [2026-04-06: 3D Printing and Chassis Verification](#2026-04-06-3d-printing-and-chassis-verification-individual)
 - [Template](#yyyy-mm-dd)
 
 ## 2026-02-09: 1st Proposal drafting (Team)
@@ -216,6 +217,38 @@
 - Continue electrical bring-up
 - Modify CAD if connector clearance is insufficient
 - Prepare for drivetrain integration
+
+## 2026-04-06: 3D Printing and Chassis Verification (Individual)
+
+### Objectives
+- Prepare the chassis model for 3D printing
+- Check slicing settings and support placement
+- Verify printed part fit with motors, wheels, PCB, and battery
+
+### Record
+- Exported the mechanical model for slicing and reviewed the print setup in Bambu Studio.
+- Checked support placement around hollow regions and recessed features.
+- Evaluated whether the printed chassis had enough stiffness for the battlebot application.
+- Test-fitted major components into the chassis, including battery, PCB, and motors.
+- Noted possible changes for easier assembly and better wire access.
+
+### Figures
+- **Fig. 1** Slicer preview of chassis print orientation.
+- **Fig. 2** Printed chassis with component fit check.
+
+### Equations
+- **Eq. 1** Approximate print infill mass estimate:
+  `m_print ≈ ρ_material V_model × infill_ratio`
+
+### Attachments / Sources
+- **Doc. A** STL/3MF Export
+- **Doc. B** Bambu Studio Slicer Screenshot
+- **Doc. C** Printed Chassis Photos
+
+### Next Steps
+- Adjust any tight clearances in CAD
+- Finalize mechanical mounting strategy
+- Support full system integration testing
 
 
 ## YYYY-MM-DD

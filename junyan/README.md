@@ -8,6 +8,7 @@
 - [2026-03-09: Design Document Drafting](#2026-03-09-design-document-drafting-team)
 - [2026-03-16: PCB Layout and Design Rule Check](#2026-03-16-pcb-layout-and-design-rule-check-individual)
 - [2026-03-23: PCB Soldering Support and Mechanical Fit Check](#2026-03-23-pcb-soldering-support-and-mechanical-fit-check-team)
+- [2026-04-06: Electrical Bring-Up and Communication Test](#2026-04-06-electrical-bring-up-and-communication-test-individual)
 - [Template](#yyyy-mm-dd)
 
 ## 2026-02-09: 1st Proposal drafting (Team)
@@ -215,6 +216,38 @@
 - Continue electrical bring-up
 - Modify CAD if connector clearance is insufficient
 - Prepare for drivetrain integration
+
+## 2026-04-06: Electrical Bring-Up and Communication Test (Individual)
+
+### Objectives
+- Bring up the ESP32 control board
+- Test wireless communication
+- Verify basic control signals before motor integration
+
+### Record
+- Tested the ESP32 board and verified that it could power on correctly.
+- Checked basic wireless communication between the computer/phone control interface and the ESP32.
+- Verified that control commands could be received and interpreted.
+- Tested basic output signals intended for motor control before connecting the full drivetrain.
+- Checked that the logic rail remained stable during low-load operation.
+
+### Figures
+- **Fig. 1** ESP32 communication test setup.
+- **Fig. 2** Serial monitor/control signal output.
+
+### Equations
+- **Eq. 1** Logic voltage tolerance:
+  `3.2 V ≤ V_logic ≤ 3.4 V`
+
+### Attachments / Sources
+- **Doc. A** ESP32 Test Code
+- **Doc. B** Communication Test Notes
+- **Doc. C** Voltage Measurement Photo
+
+### Next Steps
+- Connect motor drivers and verify motor response
+- Test link-loss shutdown behavior
+- Support full robot integration
 
 
 ## YYYY-MM-DD
