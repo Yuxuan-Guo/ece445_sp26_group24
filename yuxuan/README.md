@@ -9,6 +9,7 @@
 - [2026-03-16: CAD Refinement and Assembly Method Design](#2026-03-16-cad-refinement-and-assembly-method-design-individual)
 - [2026-03-23: PCB Soldering Support and Mechanical Fit Check](#2026-03-23-pcb-soldering-support-and-mechanical-fit-check-team)
 - [2026-04-06: 3D Printing and Chassis Verification](#2026-04-06-3d-printing-and-chassis-verification-individual)
+- [2026-04-20: Final Integration and Presentation Preparation](#2026-04-20-final-integration-and-presentation-preparation-team)
 - [Template](#yyyy-mm-dd)
 
 ## 2026-02-09: 1st Proposal drafting (Team)
@@ -249,6 +250,39 @@
 - Adjust any tight clearances in CAD
 - Finalize mechanical mounting strategy
 - Support full system integration testing
+
+## 2026-04-20: Final Integration and Presentation Preparation (Team)
+
+### Objectives
+- Integrate mechanical and electrical subsystems
+- Prepare verification evidence for high-level requirements
+- Organize final presentation content
+- Identify remaining risks before demo
+
+### Record
+- Discussed current project status and remaining integration tasks.
+- Confirmed that the electrical subsystem was mostly working, with only minor integration left.
+- Planned how to present drive margin, weapon margin, and power margin in the final presentation.
+- Discussed using slow-motion video to verify response time and mechanical motion during testing.
+- Divided presentation responsibilities between team members.
+
+### Figures
+- **Fig. 1** Integrated robot photo.
+- **Fig. 2** Verification test setup for drive and roller tests.
+
+### Equations
+- **Eq. 1** Safety margin:
+  `Margin = Available / Required`
+
+### Attachments / Sources
+- **Doc. A** Final Presentation Draft
+- **Doc. B** Verification Data Table
+- **Doc. C** Integration Photos
+
+### Next Steps
+- Complete remaining mechanical/electrical integration
+- Record verification videos
+- Practice final presentation timing
 
 
 ## YYYY-MM-DD
