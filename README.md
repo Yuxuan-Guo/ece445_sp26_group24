@@ -1,6 +1,6 @@
 # ECE 445 Lab Notebooks
 
-This repository contains the lab notebooks and supporting project documentation for **ECE 445 Senior Design, Spring 2026, Group 24**.
+This repository contains the lab notebooks and supporting project documentation for **ECE 445 Senior Design, Spring 2026, Group 24**. Looking for the project showcase? See → [antweight-battlebot](https://github.com/Yuxuan-Guo/antweight-battlebot).
 
 ## Team Members
 
